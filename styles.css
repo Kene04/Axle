@@ -6,7 +6,7 @@
 
     .banner-text {
   position: absolute;
-  margin-top: 50px;
+  margin-top: 80px;
  
 }
 
@@ -25,6 +25,10 @@ nav ul {
         align-items: center;
         gap: 15px;
     }
+
+nav {
+    position: static;
+}    
 }
 
 html, body {
