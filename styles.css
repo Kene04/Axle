@@ -4,13 +4,36 @@
         flex-wrap: wrap;
     }
 
-    .offering-img {
-    min-width: 60vw;
-    }
+    .banner-text {
+  position: absolute;
+  margin-top: 50px;
+ 
+}
 
-    .nav-container {
-        max-width: 768px;
-    }
+.offering-img {
+    min-width: 60vw;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.banner-text {
+    font-size: 0px;
+    color: transparent;
+}
+
+.nav-container {
+    position: static;
+}
 }
 
 html, body {
