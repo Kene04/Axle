@@ -1,7 +1,6 @@
 @media (min-width: 769px) {
-  .my-element {
-    position: sticky;
-    top: 0;
+  nav {
+    position: static;
   }
 }
 
