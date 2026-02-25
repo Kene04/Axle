@@ -1,3 +1,10 @@
+@media (min-width: 769px) {
+  .my-element {
+    position: sticky;
+    top: 0;
+  }
+}
+
 @media (max-width: 768px) {
     .offerings {
         display: flex;
@@ -24,11 +31,7 @@ nav ul {
         flex-direction: column;
         align-items: center;
         gap: 15px;
-    }
-
-nav {
-    position: static;
-}    
+    }  
 }
 
 html, body {
