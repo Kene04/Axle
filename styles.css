@@ -5,10 +5,13 @@
     }
 
     .banner-text {
-  position: absolute;
+  position: relative;
   margin-top: 60px;
- 
+  color: transparent;
+    font-size: 0px;
 }
+
+
 
 .offering-img {
     min-width: 60vw;
@@ -28,6 +31,7 @@ nav ul {
 
 .nav-container {
     position: static;
+    top: auto;
 }
 }
 
