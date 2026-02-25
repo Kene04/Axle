@@ -17,6 +17,7 @@
 .nav-container {
     flex-direction: column;
     gap: 20px;
+    max-width: 768px;
 }
 }
 
