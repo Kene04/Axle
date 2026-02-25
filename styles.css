@@ -11,8 +11,13 @@
     }
 
     .banner-text {
-  position: absolute;
-  margin-top: 80px;
+        color: transparent;
+        font-size: 0;
+    }
+    
+    nav {
+        position: static;
+    }
  
 }
 
@@ -30,8 +35,7 @@ nav ul {
         flex-direction: column;
         align-items: center;
         gap: 15px;
-    }  
-}
+}  
 
 html, body {
     height: 100%;
